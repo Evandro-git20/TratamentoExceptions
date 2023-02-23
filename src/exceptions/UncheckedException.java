@@ -7,7 +7,7 @@ public class UncheckedException {
 	public static void main(String[] args) {
 		
 		boolean flag = true;
-		
+		JOptionPane.showMessageDialog(null, "Divisão para números inteiros!");
 		do {
 			String a = JOptionPane.showInputDialog("Numerador: ");
 			String b = JOptionPane.showInputDialog("Denominador: ");		
